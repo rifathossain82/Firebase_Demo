@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Login Practice Flutter</string>
+    <string name="facebook_app_id">1329777500816205</string>
+    <string name="fb_login_protocol_scheme">fb1329777500816205</string>
+    <string name="facebook_client_token">7e3e793130fba28071ebaebf721b5a5a</string>
+</resources>
+
