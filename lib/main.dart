@@ -2,6 +2,8 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_demo/Firebase_auth_another/Home_another.dart';
 import 'package:firebase_demo/Firebase_authentication/Wrapper.dart';
 import 'package:firebase_demo/facebook_signIn/Home_facebookSignIn.dart';
+import 'package:firebase_demo/firebase_storage/download/Home_Download.dart';
+import 'package:firebase_demo/firebase_storage/upload/Home_storage.dart';
 import 'package:firebase_demo/firestore_demo/Home_firestore.dart';
 import 'package:firebase_demo/google_sign_in/Home_googleSignIn.dart';
 import 'package:firebase_demo/phone_authentication/login.dart';
@@ -26,7 +28,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: LoginScreen(),
+      home: Home_Download(),
     );
   }
 }
